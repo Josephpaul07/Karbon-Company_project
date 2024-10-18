@@ -108,13 +108,13 @@ Your `data.json` file should look like this:
 
 ### Upload Page
 
-[C:/Users/joseph/Downloads/Karbon/image/image2.png]
+[finacial_analysis_app/image/image2.png]
 
 *Caption: The upload page where users can submit their financial data JSON file.*
 
 ### Results Page
 
-[C:\Users\joseph\Downloads\Karbon\image\image output.png]
+[finacial_analysis_app/image/Image1.png]
 
 *Caption: The results page displaying the financial analysis based on the uploaded data.*
 
