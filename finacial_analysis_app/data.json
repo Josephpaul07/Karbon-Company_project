@@ -1,0 +1,19 @@
+{
+    "financials": [
+        {
+            "nature": "STANDALONE",
+            "pnl": {
+                "lineItems": {
+                    "netRevenue": 60000000
+                },
+                "profitBeforeInterestAndTax": 10000000,
+                "depreciation": 2000000,
+                "interestExpenses": 1000000
+            },
+            "bs": {
+                "longTermBorrowings": 5000000,
+                "shortTermBorrowings": 3000000
+            }
+        }
+    ]
+}

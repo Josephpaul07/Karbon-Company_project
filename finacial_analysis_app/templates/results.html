@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Analysis Results</title>
+</head>
+<body>
+    <h1>Financial Analysis Results</h1>
+    <div>
+        <h2>Rule 1: ISCR Flag</h2>
+        <p>{{ 'GREEN' if results['iscr_flag'] == 1 else 'RED' }}</p>
+    </div>
+    <div>
+        <h2>Rule 2: Total Revenue</h2>
+        <p>{{ results['total_revenue'] }}</p>
+    </div>
+    <div>
+        <h2>Rule 3: Total Revenue Flag</h2>
+        <p>{{ 'GREEN' if results['total_revenue_5cr_flag'] == 1 else 'RED' }}</p>
+    </div>
+    <div>
+        <h2>Rule 4: Borrowing to Revenue Flag</h2>
+        <p>{{ 'GREEN' if results['borrowing_to_revenue_flag'] == 1 else 'AMBER' }}</p>
+    </div>
+</body>
+</html>
